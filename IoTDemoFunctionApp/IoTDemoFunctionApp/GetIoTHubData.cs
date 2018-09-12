@@ -11,12 +11,12 @@ namespace IoTDemoFunctionApp
 {
     public static class GetIoTHubData
     {
-        private static HttpClient client = new HttpClient();
+        //private static HttpClient client = new HttpClient();
 
         //[FunctionName("GetIoTHubData")]
-        public static void Run([IoTHubTrigger("messages/events", Connection = "connectionString")]EventData message, ILogger log)
-        {
-            log.LogInformation($"C# IoT Hub trigger function processed a message: {Encoding.UTF8.GetString(message.Body.Array)}");
-        }
+        //public static void Run([IoTHubTrigger("messages/events", Connection = "connectionString")]EventData message, ILogger log)
+        //{
+        //    log.LogInformation($"C# IoT Hub trigger function processed a message: {Encoding.UTF8.GetString(message.Body.Array)}");
+        //}
     }
 }
