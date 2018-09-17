@@ -8,7 +8,7 @@ namespace IoTDemoFunctionApp
     public static class ValidateLightBulbData
     {
         [FunctionName("ValidateLightBulbData")]
-        public static void Run([EventHubTrigger("device2", Connection = "receiverConnectionString")]EventData myEventHubMessage, ILogger log)
+        public static void Run([EventHubTrigger("lightbulbdevices", Connection = "receiverConnectionString")]EventData myEventHubMessage, ILogger log)
         {
             log.LogInformation($"C# Event Hub trigger function processed a message: {myEventHubMessage}");
         }

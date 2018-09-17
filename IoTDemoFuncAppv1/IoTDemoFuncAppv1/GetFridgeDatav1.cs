@@ -6,10 +6,10 @@ namespace IoTDemoFuncAppv1
 {
     public static class GetFridgeDatav1
     {
-        [FunctionName("GetFridgeDatav1")]
-        public static void Run([EventHubTrigger("device1", Connection = "receiverConnectionString")]string myEventHubMessage, TraceWriter log)
-        {
-            log.Info($"C# Event Hub trigger function processed a message: {myEventHubMessage}");
-        }
+        //[FunctionName("GetFridgeDatav1")]
+        //public static void Run([EventHubTrigger("device1", Connection = "receiverConnectionString", ConsumerGroup = "fridgeconsumer")]string myEventHubMessage, TraceWriter log)
+        //{
+        //    log.Info($"C# Event Hub trigger function processed a message: {myEventHubMessage}");
+        //}
     }
 }

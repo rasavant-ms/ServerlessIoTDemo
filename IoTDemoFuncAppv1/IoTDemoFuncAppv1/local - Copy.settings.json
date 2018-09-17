@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "receiverConnectionString": "HostName=serverlessDemoIotHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=hCn21JblC+wmPudjBRAsaiL/BFbHt1syf02ekwSJPok=",
+    //"receiverConnectionString": "Endpoint=sb://iotonserverless.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=x3sLSEgRbfEPQrp+G0KADopF7psiehRwUYTI8xmqCjA=",
+    "eventHub1Name": "device1",
+    "eventHub2Name": "device2",
+    "connectionString": "HostName=serverlessDemoIotHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=hCn21JblC+wmPudjBRAsaiL/BFbHt1syf02ekwSJPok="
+  }
+}
